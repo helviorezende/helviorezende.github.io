@@ -71,3 +71,20 @@
     padding-bottom: 25px;
 
 }
+#social-container li{
+    flex: 1 1 0;
+    max-width: 60px;
+
+}
+#sicuak-container li a {
+    color: var(--main-color);
+    font-size: 30px;
+}
+#email-container{
+    display: flex;
+    justify-content: center;
+}
+#email-container ion-icon,
+#email-container a{ 
+    flex 1 1 0;
+}
