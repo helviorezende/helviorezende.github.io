@@ -128,7 +128,7 @@
     padding: 12px 10px;
     width: 150px;
     text-align: center;
-    display: inline;
+    
 }
 #btn-projects ion-icon,
 #btn-projects span {
@@ -143,6 +143,7 @@
 }
 .buttom{
     margin-bottom: 20px;
+    display: inline;
 }
 #skills-section-title{
     border-top: 1px solid var(--border-color);
