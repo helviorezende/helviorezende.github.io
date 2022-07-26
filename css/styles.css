@@ -1,6 +1,4 @@
 /* Reet */
-
-
 *{
     padding: 0;
     margin: 0;    
@@ -33,7 +31,7 @@
     flex: 1 1 20%;
     min-height: 100vh;
     background-color: var(--bio-bg-color);
-    text-align: center;
+    text-align: justify;
     padding: 30px 12px;
     border-right: 5px solid var(--bio-border-color);
 }
@@ -42,22 +40,19 @@
     min-height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
-
 }
+
 /* Bio Container */
 #bio-container h2 {
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px;    
 }
 #bio-container p{
     margin-bottom: 20px;
-    text-align: justify;
 }
 #bio-container #welcome-text{
     font-weight: bold;
 }
-
-#bio-image{
+#bio-img{
     width: 175px;
     height: 175px;
     border-radius: 40%;
@@ -75,9 +70,8 @@
 #social-container li{
     flex: 1 1 0;
     max-width: 60px;
-
 }
-#sicuak-container li a {
+#social-container li a {
     color: var(--main-color);
     font-size: 30px;
 }
@@ -87,7 +81,7 @@
 }
 #email-container ion-icon,
 #email-container a{ 
-    flex 1 1 0;
+    flex: 1 1 0;
 }
 #email-container a{
     color: var(--main-text-color);
@@ -124,7 +118,7 @@
     border-radius: 5px;
     text-decoration: none;
     transition: .5s;
-    margin: 25px 0;
+    margin: 20px 0;
     padding: 12px 10px;
     width: 150px;
     text-align: center;
@@ -159,7 +153,7 @@
 .skills-box{
     flex: 1 1 33%;
     max-width: 33%;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .skills-title{
